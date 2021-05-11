@@ -19,7 +19,7 @@
 LOCAL_PATH := device/xiaomi/vince
 
 # For building with minimal manifest
-ALLOW_MISSING_DEPENDENCIES := true
+# ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -131,7 +131,6 @@ TW_USE_TOOLBOX := true
 # Extras
 TW_IGNORE_MISC_WIPE_DATA := true
 BOARD_SUPPRESS_SECURE_ERASE := true
-ALLOW_MISSING_DEPENDENCIES := true
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
